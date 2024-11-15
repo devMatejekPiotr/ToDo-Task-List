@@ -1,0 +1,8 @@
+.container {
+  background-color: var(--color-bcg);
+}
+.container__title {
+  border-bottom: 2px solid var(--color-betweenLine);
+  padding: 20px;
+  margin: 0;
+}

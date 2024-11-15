@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bcg: #fff;
+  --color-betweenLine: #eee;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  width: 80vw;
+  max-width: 850px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color-betweenLine);
+  word-break: break-word;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  body {
+    width: 90vw;
+  }
+}
