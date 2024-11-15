@@ -43,6 +43,11 @@
   color: #bbb;
 }
 
+.section__button--disabled:disabled {
+  color: #bbb;
+  cursor:auto;
+}
+
 @media (max-width: 767px) {
   .section {
     flex-direction: column;
